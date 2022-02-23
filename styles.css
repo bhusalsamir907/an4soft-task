@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Verdana,sans-serif;
+}
+body{
+    margin: 10px;
+}
+
+#main-content{
+    border: 1px solid #488CD3;
+    background-color: #BBBBBB;
+    display: flex;
+    align-items:flex-start;
+    margin-top: 1px;
+    padding: 10px;
+    
+
+    
+}
+
+.link-div{
+    width: 75%;
+}
+
+#welcome{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    color:#488CD3;
+    
+
+}
+
+.logo{
+    background-color: #488CD3;
+   
+    
+}
+
+
+
+h2{
+    text-align: center;
+    /* margin: 0 auto; */
+    /* margin: 7px; */
+    color:#488CD3;
+    /* background-color : #999999; */
+    
+}
+
+.links{
+    border: 1px solid #488CD3 ;
+    background-color: #999999;
+    padding: 10px;
+}
+
+.links p{
+    padding: 5px 0px 10px 10px;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.registration{
+    background-color: #D6D6D6;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.registration p{
+    font-size: small;
+}
+
+.desc{
+    background-color: #D6D6D6;
+    margin: 40px 0px 5px 5px ;
+    font-size: small;
+    padding: 10px 0px 80px 10px;
+    border: 1px solid #488CD3 ;
+
+}
+
+.desc h3 {
+    font-size: small;
+}
+.desc p {
+    font-size: small;
+}
+
+
+
+/* right side sign in  */
+.login-div{
+    width: 25%;
+    margin: 100px 0px 20px 10px;
+    border: 1px solid #488CD3  ;
+    background-color: #999999;;
+    padding: 10px;
+    
+    
+}
+
+
+
+#form-head{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+#sign-in{
+    color: black;
+    
+}
+
+#verisign{
+    /* width: 50px;
+    height: 50px; */
+}
+
+label{
+    font-weight: 600;
+    margin: 1px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+input{
+    padding: 5px;
+    width: 80%;
+    border: 1px solid yellow;
+    border-radius: 3px;
+}
+
+.userlogin{
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#case-sensitive{
+    font-size: small;
+    padding-left: 10px;
+}
+
+#forget-pass{
+    margin: 7px;
+    color:blue;
+    
+}
+
+.btn{
+    background-color: #006699;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 540;
+}
+
+/* media query */
+
+/* for computer */
+@media (max-width:1025px){
+    #main-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .link-div{
+        margin: 0 auto;
+    }
+
+    #welcome{
+        width: 100%;
+        text-align:center;
+        /* margin: 0 auto; */
+    }
+
+    .login-div{
+        margin: 50px auto;
+
+        
+    }
+
+}
+
+
+/* for mobile */
+@media (max-width:415px){
+    .logo img{
+      width: 40%;
+    }
+
+    #welcome{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .links{
+        width: 
+        /* width: 80vw; */
+        /* margin: 0 auto; */
+    }
+
+    .login-div{
+        width: 60%;
+
+    }
+}
